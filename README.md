@@ -2,7 +2,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+### Environment Setup
+
+First, set up your environment variables:
+
+1. Copy the example environment file:
+```bash
+cp .env.example .env.local
+```
+
+2. Edit `.env.local` and add your Perenual API key:
+```
+NEXT_PUBLIC_PERENUAL_API_KEY=your_actual_api_key_here
+```
+
+You can get a free API key from [Perenual Plant API](https://perenual.com/docs/api).
+
+### Development Server
+
+Then, run the development server:
 
 ```bash
 npm run dev
